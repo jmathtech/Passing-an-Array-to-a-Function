@@ -18,7 +18,7 @@ public class passingarray {
 		System.out.print("Enter the number of scores: "); // Prompts the user how many number of scores to calculate the total average.
 		i = STDIN_SCANNER.nextInt(); // Standard input from the Scanner java library.
 		
-		while(i > 100 || i < 1) { /* While loop uses the 'or' operator to suggest if the integer is less than 100 or greater than 1. */
+		while(i > 100 || i < 1) { /* While loop uses the logical 'Conditional or' operator to suggest if the integer is less than 100 or greater than 1. */
 			System.out.print("Error: There should be a number in the range of 1 to 100!\n"); /* This is in case the user, when prompted to enter a number between 1 and 100, this line will output a request for the integer between 1 and 100. */
 			System.out.print("Please enter the number again: "); // Prompts the user again... haha! :)
 			i = STDIN_SCANNER.nextInt();
