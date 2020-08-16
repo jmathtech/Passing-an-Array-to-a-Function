@@ -15,7 +15,6 @@ public class passingarray {
 		float[] num = new float[100];
 		float count = 0.0f, avg;
 		
-		
 		System.out.print("Enter the number of scores: "); // Prompts the user how many number of scores to calculate the total average.
 		i = STDIN_SCANNER.nextInt(); // Standard input from the Scanner java library.
 		
